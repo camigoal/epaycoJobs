@@ -1,0 +1,173 @@
+.navbar {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 2rem;
+}
+
+.navbar-collapse {
+    margin-right: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+.estilos {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text-section {
+    width: 100%;
+}
+
+.image-section {
+    width: 30%;
+}
+
+.text-section h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+.text-section p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.text-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.text-section ul li {
+    background-color: #7d57c1;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* styles.css */
+
+.first-card {
+    margin-left: 20px;
+}
+
+.last-card {
+    margin-right: 20px;
+}
+
+
+/*body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    width: 30%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    width: 70%;
+    background-color: #1c2954;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+*/
+
+/*Container*/
+
+.container {
+    background-color: royalblue;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 30%;
+    margin-right: 20px;
+    max-height: 100%;
+}
+
+.text {
+    flex: 1;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-image {
+    width: 100px; 
+    margin-right: 20px;
+}
+
+.copyright {
+    flex: 1;
+    text-align: right;
+}
